@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.scss';
+// import getRandomJoke from '../helpers/data/jokeData';
 
 function App() {
   const [domWriting, setDomWriting] = useState('Nothing Here!');
-
   const handleClick = (e) => {
     console.warn(`You clicked ${e.target.id}`);
     setDomWriting(`You clicked ${e.target.id}! Check the Console!`);
