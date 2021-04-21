@@ -1,5 +1,12 @@
-# React Template
+# Joke Generator
+Click a button, Get a Joke!
+### Features
+- Click 'Get a Joke' for a Joke Setup to appear
+- Click 'Get Punchline' for the Punchline to show
+- The button changes to 'Get a New Joke', push to get a new joke!
 
-Use this template to get up and running quickly on projects. 
-- For setting up this template, [follow these instructions](https://github.com/nss-nightclass-projects/Night-Class-Resources/blob/master/book-4-react/chapters/react-setup.md).
-- [Steps to deploy](https://github.com/nss-nightclass-projects/REACT-Deployment-Netlify)
+
+###
+I am learning React, and this is my first application that I have built on my own with it.
+
+#### [GitHub Repository](https://github.com/cmeffley/react-joke-api)
