@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-const url = 'https://official-joke-api.appspot.com/random_joke';
+const url = 'https://official-joke-api.appspot.com/random_ten';
 
-const getRandomJoke = () => new Promise((reject) => {
+const getRandomJoke = () => new Promise((resolve, reject) => {
   axios.get(`${url}`)
-    .then((response) => console.warn(response.data))
+    .then((response) => resolve(response.data))
     .catch((error) => reject(error));
 });
 
